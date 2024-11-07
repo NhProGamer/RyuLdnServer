@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{toLower(env.USERNAME)}}/ryuldn-server:latest
+          tags: ghcr.io/nhprogamer/ryuldn-server:latest
